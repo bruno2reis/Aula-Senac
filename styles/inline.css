@@ -1,5 +1,10 @@
 body{
     margin: 0;
+    background-image: url("../images/image2.jpeg");
+    background-size: 100% 100%;
+}
+.container{
+    height: 100%;
 }
 .topnav{
     overflow: hidden;
@@ -22,33 +27,25 @@ body{
     background-color: #4CAF50;
     color: white;
 }
-p.first{
-    margin: 25px;
-
+div.titulo{
+    font-size: 5vw;
+    text-align: center;
+    position: relative;
 }
-article.first-all{
+
+div.first{
     border: 2px solid blue;
-    height: 200px;
-    width: 40%;
+    width: 38%;
+    text-align: center;
+    display: inline-block;
     background-color: powderblue;
 }
-article.secund{
-    position: absolute;
-    top: 106px;
-    right: 50px;
+div.secund1{
+    width: 38%;
+    display: inline-block;
     border: 2px solid blue;
-    margin-left: 600px;
-}
-p.sec{
-    margin: 25px;
-}
-
-h3.top2{
-    position: absolute;
-    top: 50px;
-    right: 50px;
-}
-article.first-pro{
-    border: 2px solid red;
-    width: 40%;
+    background-color: #dddddd;
+    text-align: center;
+    min-width:40vw;
+    float:right;
 }
